@@ -1,3 +1,8 @@
+/*
+Implemented by Mohamed Ahmed and Ammar Yasser
+we are students in Faculty of Computers and Artificial Intelligence - Cairo University
+*/
+
 #include <iostream>
 #include <cmath>
 #include <string>
