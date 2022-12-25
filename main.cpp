@@ -410,15 +410,15 @@ int main()
     cout << "** DES Encryption **" << endl;
     string message, key;
     cout<< "\nEnter Your Message: ";
-    cin >> message;
+    getline(cin ,message);
     cout<< "\nEnter Your Key: ";
-    cin >> key;
+    getline(cin ,key);
 
     while(key.length() != 8)
     {
         cout<<"\nError!! You Must Enter key as 8 characters!! "<<endl;
         cout<< "\nEnter Your Key: ";
-        cin >> key;
+        getline(cin ,key);
     }/* for loop to store keys in reverse order */
 
     string new_message = handle_block_of_64(message);
